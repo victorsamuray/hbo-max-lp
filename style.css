@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "gilroy-ExtraBold";
+    src: url(fonts/Gilroy-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: "gilroy-Light";
+    src: url(fonts/Gilroy-Light.otf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #120c1d;
+    font-family: "gilroy-ExtraBold";
+}
+
+body, a {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    font-family: "gilroy-ExtraBold";
+}
+
+
+#apresentacao {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100vh; /* Ocupa a altura inteira do Viewport */
+    justify-content: space-between;
+}
+
+#barra-de-navegacao {
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px; 
+    background-color: rgba(5, 3, 9, 0.778);
+    flex-flow: row wrap;
+    z-index: 1000; 
+}
+
+
+#barra-de-navegacao>img {
+    height: 30px;
+    width: 100px;
+    margin-top: 4px;
+    padding-bottom: 5px;
+    
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+}
+
+#menu>a {
+    padding: 10px 26PX;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.chama-para-acao{
+    background-color: rgba(22, 50, 222);
+    border-radius: 8px;
+    display: block;
+}
+
+#chamada {
+    margin-top: 150px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 80px 0 20px; 
+}
+
+
+ #promocional{
+    max-width: 400px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    margin-top: 40px;
+    margin-bottom: -40px;
+ }
+
+ #promocional>p{
+    font-size: 32px;
+    margin-top: 8px;
+
+ }
+
+ #promocional>img{
+    max-width: 100%;
+ }
+
+ #acao{
+    width: 500px;
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    align-items: center;
+
+ }
+
+ #acao>p{
+    font-size: 27px;
+ }
+
+ #acao>a{
+    padding: 15px 50px;
+    background-color: rgba(22, 50, 222);
+    border-radius: 8px;
+    display: inline-flex; 
+    justify-content: center;
+    letter-spacing: 0.1em;
+    max-width: 180px;
+    width: auto;
+    font-size: 15px;
+    white-space: nowrap;
+    text-align: center;
+} 
+ 
+.background-img {
+    z-index: -1000;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    
+}
+ 
+
+
