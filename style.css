@@ -129,12 +129,12 @@ a {
     text-align: center;
 } 
  
-.background-img {
+#apresentacao>img{
     z-index: -1000;
-    position: absolute;
+    position: fixed;
     height: 100vh;
     width: 100%;
-    
+    object-fit: cover;
 }
  
 
